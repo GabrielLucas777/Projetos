@@ -1,0 +1,1 @@
+print('testando novas funções Python...')
