@@ -1,1 +1,3 @@
-print('Esse é apenas um teste de integração ao github, sem panico!')
+print('Vamos codar!')
+print("Vamos \'codar!'")
+print('Vamos\n"codar!"')

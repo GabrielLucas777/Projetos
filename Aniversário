@@ -1,0 +1,11 @@
+from datetime import datetime
+
+aniversario = datetime.strptime(input('Qual é o dia do seu aniversário? '), '%d/%m/%Y')
+
+print(type(aniversario))
+
+dia_hoje=datetime.now()
+
+dias_faltantes = aniversario - dia_hoje
+
+print('Faltam {} Dias para o seu aniversário, se prepare!'.format(dias_faltantes.days))
